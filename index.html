@@ -4,20 +4,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>cool shit</title>
+  <title>Gallery</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<h1>Linus Strand Homework</h1>
-<ul>
-  <li><a href="ex1.html">ex1</a></li>
-</ul>
-<h1>Projects</h1>
-<ul>
-  <li><a href="proj1.html">Unit 1 Project</a></li>
-  <li><a href="main_page.html">Unit 2 Project</a></li>
-</ul>
+  <header>
+    <h1>Homework</h1>
+  </header>
+  <hr>
+  <main>
+    <h2>Unit 1</h2>
+    <ul>
+      <li><a href="unit1/ex1.html">ex1</a></li>
+    </ul>
+    <h2>Unit 3</h2>
+    <ul>
+      <li><a href="unit3/ex1.html">ex1</a></li>
+      <li><a href="unit3/ex2.html">ex2</a></li>
+      <li><a href="unit3/ex3.html">ex3</a></li>
+    </ul>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="unit1/proj1.html">proj1</a></li>
+      <li><a href="unit2/main_page.html">proj2</a></li>
+    </ul>
+    <hr>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/claymore_sword.jpg">
+      <source media="(min-width:426px)" srcset="images/broadsword.jpg"">
+      <source media=" (min-width:321px)" srcset="images/short_sword.jpg"">
+      <img src=" images/dagger.jpg" alt="sword" style="width:200px;height:200px;">
+    </picture>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/tiger.jpg">
+      <source media="(min-width:426px)" srcset="images/bobcat.jpg">
+      <source media="(min-width:321px)" srcset="images/house_cat.jpg"">
+      <img src=" images/kitten.png" alt="cat" style="width:200px;height:200px;">
+    </picture>
+    <picture>
+      <source media="(min-width:769px)" srcset="images/union_pacific_big_boy_4014.jpg"">
+      <source media=" (min-width:426px)" srcset="images/steam_locomotive.jpg"">
+      <source media=" (min-width:321px)" srcset="images/small_steam_engine.jpg">
+      <img src="images/narrow_gauge_steam_engine.jpg" alt="train" style="width:200px;height:200px;">
+    </picture>
+  </main>
+  <hr>
+  <footer>
+    <p><em>&copy 2024 Linus Strand</em></p>
+  </footer>
 </body>
 
 </html>
