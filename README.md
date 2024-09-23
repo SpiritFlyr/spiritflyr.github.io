@@ -1,1 +1,1 @@
-This is for a HTML wed design class. Enjoy!
+This is for a HTML web design class. Enjoy!
