@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gallery</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    @keyframes color_change {
+      0% {
+        background-color: #eaeaea;
+        left: 0px;
+        top: 0px;
+      }
+
+      20% {
+        background-color: #E60043;
+        left: 0px;
+        top: 200px;
+      }
+
+      40% {
+        background-color: #CD0085;
+        left: 0px;
+        top: 400px;
+      }
+
+      60% {
+        background-color: #B400C8;
+        left: 0px;
+        top: 600px;
+      }
+
+      80% {
+        background-color: #0000FF;
+        left: 0px;
+        top: 800px;
+      }
+      
+      100% {
+        background-color: #eaeaea;
+        left: 0px;
+        top: 0px;
+      }
+    }
+
+    p {
+      background-color: #eaeaea;
+      color: #000033;
+      animation-name: color_change;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      position: relative; /* Add this to allow 'left' and 'top' changes */
+    }
+  </style>
+</head>
+
+<body>
+  <p>HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello</p>
+</body>

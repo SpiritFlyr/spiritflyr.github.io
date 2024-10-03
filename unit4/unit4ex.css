@@ -1,0 +1,74 @@
+@keyframes text_animation {
+  0% {
+    color: brown;
+    font-size: 1.2em;
+    font-family: sans-serif;
+  }
+
+  10% {
+    color: coral;
+    font-size: 2.2em;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  20% {
+    color: teal;
+    font-size: 3.2em;
+    font-family: 'Lobster', cursive;
+  }
+
+  30% {
+    color: lavender;
+    font-size: 4.2em;
+    font-family: 'Garamond', serif;
+  }
+
+  40% {
+    color: #FFDB58;
+    font-size: 5.2em;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  50% {
+    color: #50C878;
+    font-size: 6.2em;
+    font-family: 'Courier New', monospace;
+  }
+
+  60% {
+    color: crimson;
+    font-size: 7.2em;
+    font-family: 'Playfair Display', serif;
+  }
+
+  70% {
+    color: #87CEEB;
+    font-size: 8.2em;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  80% {
+    color: #36454F;
+    font-size: 9.2em;
+    font-family: 'Georgia', serif;
+  }
+
+  90% {
+    color: #FFDAB9;
+    font-size: 10.2em;
+    font-family: 'Comic Sans MS', cursive;
+  }
+
+  100% {
+    color: brown;
+    font-size: 1.2em;
+    font-family: sans-serif;
+  }
+}
+
+p {
+  animation-name: text_animation;
+  animation-duration: 0.000001s;
+  animation-iteration-count: infinite;
+  position: relative;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+
+  <!-- External CSS  -->
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <!--  -->
+
+  <!-- Embedded CSS  -->
+  <style>
+    h1 {
+      color: red;
+      background-color: yellow;
+    }
+
+    h2 {
+      background-color: red;
+    }
+
+    p {
+      font-family: 'Comic Sans MS', cursive;
+    }
+
+    p {
+      background-color: purple;
+    }
+
+    hr {
+      height: 2px;
+      color: red;
+    }
+
+    a {
+      color: hotpink;
+    }
+
+    span {
+      display: inline-block;
+    }
+
+
+    span.vertical-shake {
+      animation: vertical-shaking 0.35s infinite;
+    }
+
+    @keyframes vertical-shaking {
+
+      0% {
+        transform: translateY(0)
+      }
+
+      25% {
+        transform: translateY(5px)
+      }
+
+      50% {
+        transform: translateY(-5px)
+      }
+
+      75% {
+        transform: translateY(5px)
+      }
+
+      100% {
+        transform: translateY(0)
+      }
+
+    }
+
+    .content {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    button {
+
+      background-color: #04AA6D;
+      /* Green */
+
+      border: none;
+
+      color: white;
+
+      padding: 15px 32px;
+
+      text-align: center;
+
+      text-decoration: none;
+
+      display: inline-block;
+
+      font-size: 16px;
+
+    }
+
+    li {
+
+      color: purple;
+
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+
+    .spin-text {
+      display: inline-block;
+      font-size: 24px;
+      color: #333;
+      animation: spin 2s linear infinite;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .explode-container {
+        display: inline-block;
+        position: relative;
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .explode-letter {
+        display: inline-block;
+        position: relative;
+        animation: explode 1s ease-out forwards;
+        opacity: 0;
+    }
+
+    @keyframes explode {
+        0% {
+            transform: scale(1) translate(0, 0);
+            opacity: 1;
+        }
+        100% {
+            transform: scale(2) translate(calc(50vw - 50%), calc(-50vh + 50%));
+            opacity: 0;
+        }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="content">
+
+
+    <h1>Hello world</h1>
+    <h1 class="spin-text">This text is spinning!</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quasi. Quidem, qu</p>
+    <h2>Goodbye void</h2>
+
+    <ol>
+      <li>Item 1</li>
+      <li><a href="/">Item 2</a></li>
+      <li>Item 3</li>
+    </ol>
+    <button> Checkout</button>
+    <span class="vertical-shake">Hello !</span>
+
+  </div>
+  <div class="explode-container">
+      <span class="explode-letter" style="animation-delay: 0s;">E</span>
+      <span class="explode-letter" style="animation-delay: 0.1s;">x</span>
+      <span class="explode-letter" style="animation-delay: 0.2s;">p</span>
+      <span class="explode-letter" style="animation-delay: 0.3s;">l</span>
+      <span class="explode-letter" style="animation-delay: 0.4s;">o</span>
+      <span class="explode-letter" style="animation-delay: 0.5s;">d</span>
+      <span class="explode-letter" style="animation-delay: 0.6s;">e</span>
+      <span class="explode-letter" style="animation-delay: 0.7s;">!</span>
+  </div>
+
+</body>
+
+</html>
