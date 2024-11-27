@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2e5a0;
+  margin: 0;
+}
+
+.pumpkin {
+  position: relative;
+  width: 75px; /* Smaller width */
+  height: 90px; /* Smaller height */
+}
+
+.stem {
+  position: absolute;
+  top: -5px; /* Adjusted position */
+  left: 50%;
+  width: 20px; /* Smaller stem */
+  height: 20px;
+  background-color: green;
+  border-radius: 0 0 5px 5px;
+  transform: translateX(-50%);
+}
+
+.left-side, .right-side, .center {
+  position: absolute;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.left-side {
+  width: 40px;  /* Smaller width */
+  height: 70px; /* Smaller height */
+  top: 15px;
+  left: 0;
+}
+
+.right-side {
+  width: 40px;  /* Smaller width */
+  height: 70px; /* Smaller height */
+  top: 15px;
+  right: 0;
+}
+
+.center {
+  width: 50px;  /* Smaller width */
+  height: 80px; /* Smaller height */
+  top: 10px;
+  left: 12.5px;  /* Center alignment adjustment */
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+canvas {
+  background-color: #f2e5a0;
+}

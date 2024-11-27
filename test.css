@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.game-container {
+  position: relative;
+}
+
+.note {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -100px; /* start off screen */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top 0.5s linear; /* smooth movement */
+}
+
+.instructions {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.score {
+  font-size: 24px;
+}

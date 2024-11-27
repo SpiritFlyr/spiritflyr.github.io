@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: blue;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+div {
+  width: 90%;
+  margin: auto;
+}
+
+.itembox {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  background-color: cadetblue;
+  color: forestgreen;
+  padding: 10px;
+}
+
+.favorite {
+  border: 1px dashed black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  background-color: orchid;
+  color: lightseagreen;
+  padding: 10px;
+}
+
+ol, ul {
+  background-color: lightcoral;
+  list-style-type: upper-latin;
+}
+
+.nav {
+  display: inline;
+}

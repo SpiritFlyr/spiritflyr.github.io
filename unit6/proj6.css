@@ -1,0 +1,34 @@
+.border {
+  width: 500px;
+  height: 300px;
+}
+
+#borderimg {
+  background-color: lightgray;
+  color: lightcoral;
+}
+
+  body {
+  background-image: url("background_img.jpg");
+  background-repeat: no-repeat;
+  background-size: 1000px 1000px;
+}
+
+#wrapper {
+    width: 60%;
+  margin: auto;
+  margin-top: 30px; 
+}
+
+ul {
+  list-style-image: url('banana_single.jpg');
+}
+
+.real_border {
+  border: 10px solid transparent;
+  border-image-slice: 13 13 13 13;
+  border-image-width: 13px 13px 13px 13px;
+  border-image-outset: 13px 13px 13px 13px;
+  border-image-repeat: repeat repeat;
+  border-image-source: url("diamond_border.png");
+}

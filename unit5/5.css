@@ -1,0 +1,31 @@
+footer {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  padding: 10px;
+  border: 1px dashed darkblue;
+}
+
+.notice {
+  width: 80%;
+  text-align: center;
+}
+
+.line {
+  border-top: 2px dotted black;
+  width: 100%;
+}
+
+h1 {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  background-color: hsla(0, 100%, 50%, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+
+.last {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: red;
+  background-color: hsla(100%, 100%, 100%, 0.5);
+}

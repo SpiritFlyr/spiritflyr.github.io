@@ -1,0 +1,103 @@
+#ex1 {
+  background-color: tan;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px; 
+  float: left;
+  width: auto;
+}
+
+#ex2 {
+  color: blue;
+  border-bottom: 2px dotted blue;
+}
+
+#ex3 {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+#ex4 {
+  position: relative;
+  left: 15px;
+  background-color: lightgreen;
+}
+
+#ex5 {
+  position: fixed;
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#ex6 {
+  list-style-image: url('pokeball.png');
+}
+
+#ball {
+  position: absolute;
+  top: 27.5px;
+  left: 31px;
+}
+
+#turnip {
+  position: absolute;
+  top: 466px;
+  left: 304px;
+}
+
+#grass {
+  position: absolute;
+  top: 466px;
+  left: 500px;
+}
+
+#L {
+  position: absolute;
+  top: 2381px;
+  left: 106px;
+}
+
+#T {
+  position: absolute;
+  top: 2483px;
+  left: 508px;
+}
+
+#I {
+  position: absolute;
+  top: 2383px;
+  left: 1008px;
+}
+
+#turnip2 {
+  position: absolute;
+  top: 490px;
+  left: 305px;
+}
+
+#grass2 {
+  position: absolute;
+  top: 490px;
+  left: 500px;
+}
+
+#L2 {
+  position: absolute;
+  top: 2428px;
+  left: 106px;
+}
+
+#T2 {
+  position: absolute;
+  top: 2530px;
+  left: 508px;
+}
+
+#I2 {
+  position: absolute;
+  top: 2429px;
+  left: 1008px;
+}
